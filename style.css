@@ -1,0 +1,815 @@
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+/* Navbar */
+/*
+nav {
+   height: 100px;
+   position: absolute;
+   left: 0%;
+   right: 0%;
+   top: 0%;
+   bottom: 0%;
+   background: #E30D00;
+   width: 100%;
+}
+
+nav a {
+   font-family: kepler-std-semicondensed-dis,serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 19px;
+   display: flex;
+   align-items: center;
+   text-transform: capitalize;
+   text-decoration: none;
+
+   color: #FFFFFF;
+}
+
+#logo {
+   position: absolute;
+   left: 4.44%;
+   right: 91.46%;
+   top: 23%;
+   bottom: 23%;
+}
+
+#OurTeam {
+   position: absolute;
+   left: 32.36%;
+   right: 62.71%;
+   top: 45%;
+   bottom: 40%; 
+   width: 100%;
+}
+
+#Keystone {
+   position: absolute;
+   left: 42.85%;
+   right: 52.43%;
+   top: 45%;
+   bottom: 40%;
+}
+
+#Projects {
+   position: absolute;
+   left: 53.12%;
+   right: 42.71%;
+   top: 45%;
+   bottom: 40%;
+}
+
+#Ratnajaali {
+   position: absolute;
+   left: 62.85%;
+   right: 31.88%;
+   top: 45%;
+   bottom: 40%;
+}
+
+#Contact {
+   position: absolute;
+   left: 73.68%;
+   right: 22.29%;
+   top: 45%;
+   bottom: 40%;
+}
+
+#CSROpportunities {
+   position: absolute;
+   left: 85.3%;
+   right: 5.62%;
+   top: 43%;
+   bottom: 39%;
+   width: 100%;
+}
+
+.rectangle {
+   position: absolute;
+   left: 83.26%;
+   right: 3.89%;
+   top: 33%;
+   bottom: 25%;
+   width: 180px;
+
+   border: 2px solid #FFFFFF;
+   box-sizing: border-box;
+   border-radius: 8px;
+   }
+
+   #nav-icon {
+      display: none;
+      font-size: 40px;
+      color: #FFFFFF;
+   }
+
+/*header*/
+header {
+   position: absolute;
+   width: 100%;
+   height: 75px;
+   text-align: center;
+   top: 180px;
+
+   font-family:kepler-std-semicondensed-dis,serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 4.75rem;
+   line-height: 91px;
+
+   color: #000000;
+}
+
+
+/* About */
+
+.about p {
+   position: absolute;
+   width: 28.83%;
+   height: 309px;
+   left: 13.36%;
+   top: 375px;
+
+   font-family: aktiv-grotesk, sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   text-overflow: ellipsis;
+
+   color: #4F4F4F;
+   }
+
+.imgOne {
+   position: absolute;
+   width: 37.5%;
+   height: 463px;
+   left: 45.13%;
+   top: 335px;
+
+   background-color: grey;
+   border-radius: 8px;
+}
+
+.button_BuyOurCurriculumNow {
+   position: absolute;
+   width: 28.83%;
+   height: 48px;
+   left: 13.36%;
+   top: 686px;
+   
+   background: #E30D00;
+   border-radius: 8px;
+}
+
+.caption_BuyOurCurriculumNow {
+   position: absolute;
+   width: 28.95%;
+   height: 16px;
+   left: 17.76%;
+   top: 702px;
+
+   font-family: aktiv-grotesk, sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 13px;
+   line-height: 18px;
+   display: flex;
+   align-items: center;
+
+   color: #FFFFFF;
+}
+
+.button_workWithUs{
+   position: absolute;
+   width: 20.83%;
+   height: 48px;
+   left: 13.36%;
+   top: 750px;
+
+   background: #FFFFFF;
+
+   border: 2px solid #BDBDBD;
+   box-sizing: border-box;
+   border-radius: 8px;
+}
+
+.caption_workWithUs{
+   position: absolute;
+   width: 11.11%;
+   height: 16px;
+   left: 19.85%;
+   top: 766px;
+   
+   font-family: aktiv-grotesk, sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 18px;
+   
+   display: flex;
+   align-items: center;
+   text-align: center;
+
+   color: #BDBDBD;
+}
+
+/* Projects */
+
+h2 {
+   position: absolute;
+   width: 20.83%;
+   height: 33px;
+   left: 61.8%;
+   top: 958px;
+
+   font-family: Kepler Stdkepler-std-semicondensed-dis,serif;
+   font-weight: 900;
+   font-size: 32px;
+   line-height: 38px;
+
+   color: #000000;
+}
+
+.imgTwo {
+   position: absolute;
+   width: 54.86%;
+   height: 767px;
+   left: 0%;
+   top: 958px;
+
+   border-radius: 8px;
+   background-color: grey;
+}
+
+/* Ratnajaali */
+
+.logoTwo {
+   position: absolute;
+   width: 2.5%;
+   height: 36px;
+   left: 61.8%;
+   top: 1023px;
+
+   background-color: grey;
+}
+
+.ratnajaali h3 {
+   position: absolute;
+   width: 18.68%;
+   height: 21px;
+   left: 61.8%;
+   top: 1081px;
+
+   font-family: kepler-std-semicondensed-dis,serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 29px;
+   display: flex;
+   align-items: center;
+   text-transform: capitalize;
+
+   color: #000000;
+}
+
+.ratnajaali p {
+   position: absolute;
+   width: 20.83%;
+   height: 9.09%;
+   left: 61.8%;
+   top: 1118px;
+
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 28px;
+
+   color: #000000;
+}
+
+.ratnajaali a{
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 28px;
+   text-decoration: none;
+
+   color: #E30D00;
+}
+
+/* keystone */
+
+.logoThree {
+   position: absolute;
+   width: 3.05%;
+   height: 34px;
+   left: 61.8%;
+   top: 1289px;
+
+   background-color: grey;
+}
+
+.keystone h3 {
+   position: absolute;
+   width: 9.09%;
+   height: 21px;
+   left: 61.8%;
+   top: 1347px;
+
+   font-family: kepler-std-semicondensed-dis,serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 29px;
+   display: flex;
+   align-items: center;
+   text-transform: capitalize;
+
+   color: #000000;
+}
+
+.keystone p {
+   position: absolute;
+   width: 20.83%;
+   height: 132px;
+   left: 61.8%;
+   top: 1384px;
+
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 28px;
+
+   color: #000000;
+}
+
+.keystone a {
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 28px;
+   text-decoration: none;
+
+   color: #E30D00;
+}
+
+/* Outreach Project */
+
+.OutreachProject h3 {
+   position: absolute;
+   width: 16.875%;
+   height: 22px;
+   left: 61.8%;
+   top: 1556px;
+   
+   font-family: kepler-std-semicondensed-dis,serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 29px;
+   display: flex;
+   align-items: center;
+   text-transform: capitalize;
+   
+   color: #000000;
+}
+
+.OutreachProject p{
+   position: absolute;
+   width: 20.83%;
+   height: 9.09%;
+   left: 61.8%;
+   top: 1594px;
+
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 28px;
+
+   color: #000000;
+}
+
+.OutreachProject a{
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 28px;
+   text-decoration: none;
+   
+   color: #E30D00;
+}
+
+/* qoute */
+
+.qoute {
+   position: absolute;
+   width: 65.27%;
+   height: 329px;
+   left: 17.36%;
+   top: 1885px;
+   
+   font-family: kepler-std-semicondensed-dis,serif;
+   font-style: italic;
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 48px;
+   text-align: center;
+   
+   color: #E30D00;
+}
+
+ /* MadhaviKapur */
+/*
+.logoThree {
+   position: absolute;
+   width: 113px;
+   height: 113px;
+   left: 664px;
+   top: 2262px;
+
+   border-radius: 60px;
+   background-color: grey;
+}
+
+.MadhaviKapur h3{
+   position: absolute;
+   width: 226px;
+   height: 24px;
+   left: 607px;
+   top: 2398px;
+   
+   font-family: kepler-std-semicondensed-dis,serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 29px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   text-transform: capitalize;
+   
+   color: #4F4F4F;
+}
+
+.MadhaviKapur h5{
+   position: absolute;
+   width: 154px;
+   height: 16px;
+   left: 643px;
+   top: 2426px;
+   
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 28px;
+   
+   display: flex;
+   align-items: center;
+   text-align: center;
+   
+   color: #4F4F4F;
+ } */
+
+ /* Our philosophy */
+
+.imgFour {
+   position: absolute;
+   width: 54.86%;
+   height: 788px;
+   left: 45.13%;
+   top: 2602px;
+
+   background-color: grey;
+   border-radius: 8px;
+   }
+
+.ourPhilosophy h2 {
+   position: absolute;
+   width: 20.83%;
+   height: 32px;
+   left: 17.36%;
+   top: 2602px;
+   
+   font-family: kepler-std-semicondensed-dis,serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 32px;
+   line-height: 38px;
+
+   color: #000000;
+}
+
+.ourPhilosophy p{
+   position: absolute;
+   width: 20.83%;
+   height: 722px;
+   left: 17.36%;
+   top: 2668px;
+   
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 28px;
+   
+   color: #000000;
+}
+
+ /* footer */
+
+footer {
+   position: absolute;
+   width: 100%;
+   height: 424px;
+   left: 0%;
+   top: 3510px; 
+
+   background: #F2F2F2;
+}
+
+h3 {
+   position: absolute;
+   left: 19.58%;
+   right: 72.92%;
+   top: 18.87%;
+   bottom: 75.94%;
+   
+   font-family:kepler-std-semicondensed-dis,serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 24px;
+   line-height: 29px;
+   text-transform: capitalize;
+
+   color: #333333;
+}
+
+.address {
+   position: absolute;
+   left: 19.58%;
+   right: 64.44%;
+   top: 33.49%;
+   bottom: 50.71%;
+   
+   font-family: aktiv-grotesk, sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   
+   color: #333333;
+}
+
+.email {
+   position: absolute;
+   left: 19.58%;
+   right: 63.47%;
+   top: 58.73%;
+   bottom: 36.08%;
+   
+   font-family: aktiv-grotesk, sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+
+   color: #333333;
+}
+
+.number {
+   position: absolute;
+   left: 19.58%;
+   right: 66.81%;
+   top: 66.75%;
+   bottom: 28.77%;
+   
+   font-family: aktiv-grotesk, sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   
+   color: #333333;
+}
+
+.allRightsReserved {
+   position: absolute;
+   left: 19.58%;
+   right: 62.64%;
+   top: 80.66%;
+   bottom: 15.09%;
+   
+   font-family: aktiv-grotesk, sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 18px;
+
+   color: #333333;
+}
+
+.Ratnajaali {
+   position: absolute;
+   left: 47.29%;
+   right: 46.46%;
+   top: 33.49%;
+   bottom: 61.56%;
+   
+   font-family: aktiv-grotesk, sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   
+   color: #333333;
+}
+
+.Keystone {
+   position: absolute;
+   left: 47.29%;
+   right: 47.08%;
+   top: 42.22%;
+   bottom: 52.83%;
+   
+   font-family: aktiv-grotesk, sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   
+   color: #333333;
+}
+
+.Careers {
+   position: absolute;
+   left: 47.29%;
+   right: 47.71%;
+   top: 50.94%;
+   bottom: 44.58%;
+   
+   font-family: aktiv-grotesk, sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   
+   color: #333333;
+}
+
+.CSR {
+   position: absolute;
+   left: 47.29%;
+   right: 47.71%;
+   top: 59.2%;
+   bottom: 36.32%;
+   
+   font-family: aktiv-grotesk, sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   
+   color: #333333;
+} 
+/* media queries */
+
+
+/*nav responsivity*/
+@media screen and (max-width: 1120px) {
+   #OurTeam {
+      left: 27.36%;
+   }
+   #Keystone {
+      left: 37.85%;
+   }
+   #Projects {
+      left: 48.12%;
+   }
+   #Ratnajaali {
+      left: 57.85%;
+   }
+   #Contact {
+      left: 68.68%;
+   }
+   #CSROpportunities {
+      left: 80.3%;
+   }
+   .rectangle {
+      left: 78.26%;
+   }
+   .imgOne {
+      top: 380px;
+      height: 400px;
+   }
+}
+
+@media screen and (max-width: 824px) {
+   nav {
+      height: 80px;
+   }
+
+   #logo {
+      left: 1.44%;
+   }
+   #OurTeam {
+      left: 11.36%;
+      padding-left: 10px;
+   }
+   #Keystone {
+      left: 22.85%;
+      padding-left: 20px;
+   }
+   #Projects {
+      left: 33.12%;
+      padding-left: 30px;
+   }
+   #Ratnajaali {
+      left: 42.85%;
+      padding-left: 40px;
+   }
+   #Contact {
+      left: 53.68%;
+      padding-left: 60px;
+   }
+   #CSROpportunities {
+      left: 65.3%;
+      padding-left: 55px;
+   }
+   .rectangle {
+      display: none;
+   }
+
+   header {
+      top: 110px;
+   }
+   .imgOne {
+      height: 300px;
+      left: 55%;
+   }
+}
+
+@media screen and (max-width: 666px) {
+   nav {
+      height: 180px;
+      display: flex;
+   }
+   nav a {
+      font-size: 18px;
+   }
+   #logo {
+      display: none;
+   }
+   #OurTeam {
+      top: -60px;
+      left: 45%;
+      padding: 0px;
+   }
+   #Keystone {
+      top: 0px;
+      left: 45%;
+      padding-left: 0;
+   }
+   #Projects {
+      top: 60px;
+      left: 45%;
+      padding: 0;
+   }
+   #Ratnajaali {
+      top: 115px;
+      left: 45%;
+      padding: 0;
+   }
+   #Contact {
+      top: 145px;
+      left: 45%;
+      padding: 0;
+   }
+   #CSROpportunities {
+      display: none;
+   }
+
+   header {
+      top: 200px;
+      font-size: 3.8rem;
+   }
+
+   .imgOne {
+      top: 420px;
+      left: 15%;
+      height: 200px;
+      width: 70%;
+   }
+}

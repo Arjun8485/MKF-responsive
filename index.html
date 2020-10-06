@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MKF</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+nav a {
+    font-family: kepler-std-semicondensed-dis,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+a {
+        text-decoration: none;
+}
+* {
+	scrollbar-width: thin;
+	scrollbar-color: #E30D00;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {}
+
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+	width: 12px;
+}
+*::-webkit-scrollbar-track {
+	background: #ececec;
+}
+*::-webkit-scrollbar-thumb {
+	background-color: #E30D00;
+	border-radius: 20px;
+	border: 2px solid #ececec;
+}
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #E30D00;
+}
+
+::selection {
+    color: white;
+    background: #E30D00;
+}
+</style>
+<body>
+
+    <!--navbar large screens--> 
+    <nav class="w3-bar w3-hide-small w3-hide-medium w3-top" style="background-color: #E30D00;">
+        <a href="index.html"  class="w3-bar-item w3-padding-24 w3-margin-left"><img src="logo.png" class="w3-image"></a>
+        <div class="w3-padding-32 w3-right">
+            <a href="team.html" class="w3-bar-item w3-hover-text-black" style="margin-right: 35px;">our Team</a>
+            <a href="keystone.html" class="w3-bar-item w3-hover-text-black" style="margin-right: 35px;">Keystone</a>
+            <a href="Projects.html" class="w3-bar-item w3-hover-text-black" style="margin-right: 35px;">Projects</a>
+            <a href="ratnajaali.html" class="w3-bar-item w3-hover-text-black" style="margin-right: 35px;">Ratnajaali</a>
+            <a href="contact.html" class="w3-bar-item w3-hover-text-black" style="margin-right: 35px;">Contact</a>
+            <a href="csr.html" class="w3-bar-item w3-hover-text-black w3-border w3-border-white" style="border-radius: 10px; border-width: thick;margin-right: 50px;">CSR Opportunities</a>
+        </div>
+    </nav>
+    <!--navbar medium screens-->
+    <nav class="w3-bar w3-display-container w3-hide-large w3-hide-small w3-top" style="background-color: #E30D00;">
+        <a href="index.html" id="logo" class="w3-bar-item w3-hover-text-black w3-padding-24"><img src="logo.png" class="w3-image"></a>
+        <div class="w3-padding-32">
+            <a href="team.html" id="OurTeam" class="w3-bar-item w3-hover-text-black w3-margin-right w3-margin-left">our Team</a>
+            <a href="keystone.html" id="Keystone" class="w3-bar-item w3-hover-text-black w3-margin-right w3-margin-left">Keystone</a>
+            <a href="Projects.html" id="Projects" class="w3-bar-item w3-hover-text-black w3-margin-right w3-margin-left">Projects</a>
+            <a href="ratnajaali.html" id="Ratnajaali" class="w3-bar-item w3-hover-text-black w3-margin-right w3-margin-left">Ratnajaali</a>
+            <a href="contact.html" id="Contact" class="w3-bar-item w3-hover-text-black w3-margin-right w3-margin-left">Contact</a>
+            <a href="csr.html" id="CSROpportunities" class="w3-bar-item w3-hover-text-black w3-border w3-border-white w3-margin-right w3-margin-left" style="border-radius: 10px; border-width: thick;margin-right: 50px;">CSR Opportunities</a>
+        </div>
+    </nav>
+    <!--navbar small screens-->
+    <nav class="w3-bar w3-display-container w3-hide-large w3-hide-medium" style="background-color: #E30D00;">
+        <a href="index.html" id="logo" class="w3-bar-item w3-hover-text-black w3-mobile w3-padding-24"><img src="logo.png" class="w3-image"></a>
+        <div class="w3-padding-32">
+            <a href="team.html" id="OurTeam" class="w3-bar-item w3-hover-text-black w3-mobile w3-padding-16">our Team</a>
+            <a href="keystone.html" id="Keystone" class="w3-bar-item w3-hover-text-black w3-mobile w3-padding-16">Keystone</a>
+            <a href="Projects.html" id="Projects" class="w3-bar-item w3-hover-text-black w3-mobile w3-padding-16">Projects</a>
+            <a href="ratnajaali.html" id="Ratnajaali" class="w3-bar-item w3-hover-text-black w3-mobile w3-padding-16">Ratnajaali</a>
+            <a href="contact.html" id="Contact" class="w3-bar-item w3-hover-text-black w3-mobile w3-padding-16">Contact</a>
+            <a href="csr.html" id="CSROpportunities" class="w3-bar-item w3-hover-text-black w3-mobile w3-padding-16">CSR Opportunities</a>
+        </div>
+    </nav>
+
+    <header class="w3-row w3-hide-small" style="padding-top: 150px;"><h1 class="w3-center" style="font-family: kepler-std-semicondensed-dis,serif;
+    font-weight: bold;font-size: 76px;line-height: 91px;color: #000000;">Madhavi Kapur Foundation</h1></header>
+    <!--Small screens-->
+    <header class="w3-row w3-margin-top w3-padding-32 w3-hide-medium w3-hide-large w3-xxxlarge"><h1 class="w3-center" style="font-family: kepler-std-semicondensed-dis,serif;
+        font-weight: bold;line-height: 91px;color: #000000;">Madhavi Kapur Foundation</h1></header>
+
+    <!--about / large screens--> 
+    <section class="w3-row w3-hide-medium w3-hide-small w3-padding-64">
+        <div class="w3-col l5">
+            <p class="w3-col l8 w3-right" style="margin-right: 15%;">
+                The Madhavi Kapur Foundation (MKF) is a registered Trust since 2002. The team at MKF has been working together for the last 28 years and have adapted many tried and tested techniques and methods, from other parts of the world, keeping in mind the best in Indian values, traditions and teaching practices, thereby creating our own unique curriculum, methodology and style of imparting education, making it meaningful and relevant in the modern Indian context.
+            </p>
+        <div class="w3-row">
+                    <a href="">
+                        <button class="w3-button w3-round-large w3-right w3-col l8 w3-padding-16 w3-text-white" style="background-color: #E30D00; margin-right: 15%; margin-top: 40px;">BUY OUR CURRICULUM</button>
+                    </a>
+                    <a href="">
+                        <button class="w3-button w3-white w3-round-large w3-right w3-col l8 w3-margin-top w3-padding-16"  style="margin-right: 15%; border: grey 2px solid;">WORK WITH US</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="w3-col l7 w3-image w3-right">
+            <img src="OIP (1).jpg" alt="image to be placed" class="w3-image w3-col l10">
+            <div class="vector1"></div>
+            <div class="vector2"></div>
+        </div>
+    </section>
+    <!--about / medium and small screens--> 
+    <section class="w3-row w3-hide-large">
+        <div class="w3-auto" style="width: 80%;">
+            <p>
+                The Madhavi Kapur Foundation (MKF) is a registered Trust since 2002. The team at MKF has been working together for the last 28 years and have adapted many tried and tested techniques and methods, from other parts of the world, keeping in mind the best in Indian values, traditions and teaching practices, thereby creating our own unique curriculum, methodology and style of imparting education, making it meaningful and relevant in the modern Indian context.
+            </p>
+        <div class="w3-auto w3-padding-48" style="width: 100%;">
+                    <a href="">
+                        <button class="w3-button w3-round-large w3-padding-16 w3-text-white" style="width: 100%; background-color: #E30D00;">BUY OUR CURRICULUM</button>
+                    </a>
+                    <a href="">
+                        <button class="w3-button w3-white w3-round-large w3-padding-16 w3-margin-top" style="width: 100%; border: grey 2px solid;">WORK WITH US</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="w3-auto w3-padding-64" style="width: 80%;">
+            <img src="OIP (1).jpg" alt="image to be placed" class="w3-image w3-col l6">
+            <div class="vector1"></div>
+            <div class="vector2"></div>
+        </div>
+    </section>
+
+    <!--projects / large screens--> 
+    <section class="w3-section w3-row w3-hide-medium w3-hide-small">
+        <!--imgTwo to be replaced with an image-->
+        <div class="w3-col l7" st>
+            <img src="OIP (1).jpg" alt="" class="w3-image w3-col l12">
+        </div>
+
+        <div class="w3-col l5">
+            <div class="w3-margin-right" style="margin-left: 15%;">
+                <h2>Our Projects</h2>
+                <!--logoTwo to be replaced with an image-->
+                <div class="logoTwo"></div>
+                <div class="w3-col l9 w3-container">
+                    <h3>Ratnajaali</h3>
+                    <p class="">The team member has created a curriculum which is a philosophy on its own. It consists of themes, objectives, values, suggestions, links and pointers.<br><a href="" class="w3-text-deep-orange w3-hover-text-black">Know More ></a></p>
+                </div>
+                <!--logoThree to be replaced with an image-->
+                <div class="logoThree"></div>
+                <div class="w3-col l9 w3-container">
+                    <h3>keystone</h3>
+                    <p>A training and resource centre, we offer professional teacher development workshops which help teachers upgrade and enhance their teaching methods.<br><a href="" class="w3-text-deep-orange w3-hover-text-black">Know More ></a></p>
+                </div>
+                <div class="w3-col l9 w3-container">
+                    <h3>Outreach Project</h3>
+                    <p>loskar Pneumatic social work team, we focus on 240 vulnerable children from Zilla Parishad schools who are at risk of dropping from school.<br><a href="" class="w3-text-deep-orange w3-hover-text-black">Know More ></a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--projects / medium and small screens--> 
+    <section class="w3-section w3-row w3-hide-large">
+        <!--imgTwo to be replaced with an image-->
+        <div class="w3-auto w3-padding-32" style="width: 80%;">
+            <img src="OIP (1).jpg" alt="" class="w3-image w3-col l12">
+        </div>
+
+        <div class=" w3-row w3-auto" style="width: 80%;">
+            <div class="w3-margin-left w3-margin-right w3-margin-top">
+                <h2>Our Projects</h2>
+                <!--logoTwo to be replaced with an image-->
+                <div class="logoTwo"></div>
+                <div class="w3-col w3-container">
+                    <h3>Ratnajaali</h3>
+                    <p>The team member has created a curriculum which is a philosophy on its own. It consists of themes, objectives, values, suggestions, links and pointers.<br><a href="" class="w3-text-deep-orange w3-hover-text-black">Know More ></a></p>
+                </div>
+                <!--logoThree to be replaced with an image-->
+                <div class="logoThree"></div>
+                <div class="w3-container">
+                    <h3>keystone</h3>
+                    <p>A training and resource centre, we offer professional teacher development workshops which help teachers upgrade and enhance their teaching methods.<br><a href="" class="w3-text-deep-orange w3-hover-text-black">Know More ></a></p>
+                </div>
+                <div class="w3-container">
+                    <h3>Outreach Project</h3>
+                    <p>loskar Pneumatic social work team, we focus on 240 vulnerable children from Zilla Parishad schools who are at risk of dropping from school.<br><a href="" class="w3-text-deep-orange w3-hover-text-black">Know More ></a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--quote--> 
+    <section class="w3-row w3-hide-medium w3-hide-small">
+        <p class="w3-auto w3-center w3-serif w3-italic w3-xxlarge w3-padding-64" style="color:#E30D00; width: 70%; font-style: italic; font-weight: bold;">Indian education is at a very important point where critical adjustments and choices will need to be made. It calls for a merging of the and the , the traditional and the modern. It needs to respond to the changing socio-economic structure of our society, emphasizing the leveling of class factors. The projects undertaken by the Foundation all aim to bring people together across class, caste, communal, linguistic and language divides.</p>
+    </section>
+    <section class="w3-row w3-hide-large">
+        <p class="w3-auto w3-center w3-serif w3-italic w3-xlarge w3-padding-64" style="color: #E30D00; width: 90%; font-style: italic; font-weight: bold;">Indian education is at a very important point where critical adjustments and choices will need to be made. It calls for a merging of the and the , the traditional and the modern. It needs to respond to the changing socio-economic structure of our society, emphasizing the leveling of class factors. The projects undertaken by the Foundation all aim to bring people together across class, caste, communal, linguistic and language divides.</p>
+    </section>
+
+    <!--Philosophy-->
+    <section class="w3-row w3-hide-medium w3-hide-small">
+        <!--imgFour to be replaced with an image-->
+        <div class="w3-col l5">
+            <h2 class="w3-col l8" style="margin-left: 12%;">Our philosophy</h2>
+            <p class="w3-col l11" style="margin-left: 12%;">
+                At a time when India is muscling its way on to the international arena as an economic, technological and cultural force to contend with, education is increasingly being considered a vital developmental sector. Ironically, there is still an urgent need for professionally managed schools that cultivate responsible, sensitive, motivated and welladjusted young people who will not only be able to face the challenges of a new India, but also emerge as initiators and leaders in their chosen disciplines. The country boasts of premier national institutes, colleges of learning and training and select progressive schools. There is still a need for more replicable models that are both scale-able and accessible. Indian education is at a very important point where critical adjustments and choices will need to be made. It calls for a merging of the 'old' and the 'new', the 'traditional' and the 'modern'. It needs to respond to the changing socio-economic structure of our society, emphasizing the leveling of class factors. The projects undertaken by the Foundation all aim to bring people together across class, caste, communal, linguistic and language divides.
+            </p>
+        </div>
+        <div class="w3-col l7">
+            <img src="OIP (1).jpg" alt="" class="w3-image w3-col l11 w3-right">
+        </div>
+        </section>
+        <section class="w3-row w3-hide-large w3-margin-bottom">
+            <!--imgFour to be replaced with an image-->
+            <div class="w3-auto" style="width: 80%;">
+                <h2>Our philosophy</h2>
+                <p>
+                    At a time when India is muscling its way on to the international arena as an economic, technological and cultural force to contend with, education is increasingly being considered a vital developmental sector. Ironically, there is still an urgent need for professionally managed schools that cultivate responsible, sensitive, motivated and welladjusted young people who will not only be able to face the challenges of a new India, but also emerge as initiators and leaders in their chosen disciplines. The country boasts of premier national institutes, colleges of learning and training and select progressive schools. There is still a need for more replicable models that are both scale-able and accessible. Indian education is at a very important point where critical adjustments and choices will need to be made. It calls for a merging of the 'old' and the 'new', the 'traditional' and the 'modern'. It needs to respond to the changing socio-economic structure of our society, emphasizing the leveling of class factors. The projects undertaken by the Foundation all aim to bring people together across class, caste, communal, linguistic and language divides.
+                </p>
+            </div>
+            <div class="w3-auto" style="width: 80%;">
+                <img src="OIP (1).jpg" alt="" class="w3-image w3-col m12 s12">
+            </div>
+            </section>
+
+        <footer class="w3-row w3-light-grey w3-hide-medium w3-hide-small" style="margin-top: 80px;">
+            <div class="w3-col l4">
+                <h3 style="margin-left: 45%;">MKF</h3>
+                <p style="margin-left: 45%;">90/1/2/3,<br> Lohegaon Wagholi Road <br>411047</p>
+                <p style="margin-left: 45%;">feedback.amansetu@gmail.com</p>
+                <p style="margin-left: 45%;">+91 9833354036</p>
+                <p style="margin-left: 45%;">© MKF 2020. All rights reserved</p>
+            </div>
+            <div class="w3-col l4 w3-padding-32">
+                <p class="Ratnajaali" style="margin-left: 45%;">Ratnajaali</p>
+                <p class="Keystone" style="margin-left: 45%;">Keystone</p>
+                <p class="Careers" style="margin-left: 45%;">Careers</p>
+                <p class="CSR" style="margin-left: 45%;">CSR</p>
+            </div>
+        </footer>
+        <footer class="w3-content w3-light-grey w3-hide-large" style="margin-top: 80px;">
+            <div class="w3-auto">
+                <h3>MKF</h3>
+                <p>90/1/2/3,<br> Lohegaon Wagholi Road <br>411047</p>
+                <p>feedback.amansetu@gmail.com</p>
+                <p>+91 9833354036</p>
+                <p>© MKF 2020. All rights reserved</p>
+            </div>
+            <div class="w3-center w3-padding-32">
+                <p class="Ratnajaali">Ratnajaali</p>
+                <p class="Keystone">Keystone</p>
+                <p class="Careers">Careers</p>
+                <p class="CSR">CSR</p>
+            </div>
+        </footer>
+</body>
+</html>

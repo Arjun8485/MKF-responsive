@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratnajaali</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<style>
+nav a {
+    font-family: kepler-std-semicondensed-dis,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+a {
+    text-decoration: none;
+}
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #E30D00;
+}
+
+/* Works on Chrome/Edge/Safari */
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+	width: 12px;
+}
+*::-webkit-scrollbar-track {
+	background: #ececec;
+}
+*::-webkit-scrollbar-thumb {
+	background-color: #E30D00;
+	border-radius: 20px;
+	border: 2px solid #ececec;
+}
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #E30D00;
+}
+
+::selection {
+    color: white;
+    background: #E30D00;
+}
+</style>
+<body>
+    <!--navbar large screens--> 
+    <nav class="w3-bar w3-hide-small w3-hide-medium w3-top" style="background-color:#E30D00;">
+        <a href="index.html" id="logo" class="w3-bar-item w3-padding-24 w3-margin-left"><img src="logo.png" class="w3-image"></a>
+        <div class="w3-padding-32 w3-right">
+            <a href="team.html" id="OurTeam" class="w3-bar-item w3-hover-text-black" style="margin-right: 35px;">our Team</a>
+            <a href="keystone.html" id="Keystone" class="w3-bar-item w3-hover-text-black" style="margin-right: 35px;">Keystone</a>
+            <a href="Projects.html" id="Projects" class="w3-bar-item w3-hover-text-black" style="margin-right: 35px;">Projects</a>
+            <a href="ratnajaali.html" id="Ratnajaali" class="w3-bar-item w3-hover-text-black" style="margin-right: 35px;">Ratnajaali</a>
+            <a href="contact.html" id="Contact" class="w3-bar-item w3-hover-text-black" style="margin-right: 35px;">Contact</a>
+            <a href="csr.html" id="CSROpportunities" class="w3-bar-item w3-hover-text-black w3-border w3-border-white" style="border-radius: 10px; border-width: thick;margin-right: 50px;">CSR Opportunities</a>
+        </div>
+    </nav>
+    <!--navbar medium screens-->
+    <nav class="w3-bar w3-display-container w3-hide-large w3-hide-small w3-top" style="background-color: #E30D00;">
+        <a href="index.html" id="logo" class="w3-bar-item w3-hover-text-black w3-padding-24"><img src="logo.png" class="w3-image"></a>
+        <div class="w3-padding-32">
+            <a href="team.html" id="OurTeam" class="w3-bar-item w3-hover-text-black w3-margin-right w3-margin-left">our Team</a>
+            <a href="keystone.html" id="Keystone" class="w3-bar-item w3-hover-text-black w3-margin-right w3-margin-left">Keystone</a>
+            <a href="Projects.html" id="Projects" class="w3-bar-item w3-hover-text-black w3-margin-right w3-margin-left">Projects</a>
+            <a href="ratnajaali.html" id="Ratnajaali" class="w3-bar-item w3-hover-text-black w3-margin-right w3-margin-left">Ratnajaali</a>
+            <a href="contact.html" id="Contact" class="w3-bar-item w3-hover-text-black w3-margin-right w3-margin-left">Contact</a>
+            <a href="csr.html" id="CSROpportunities" class="w3-bar-item w3-hover-text-black w3-border w3-border-white w3-margin-right w3-margin-left" style="border-radius: 10px; border-width: thick;margin-right: 50px;">CSR Opportunities</a>
+        </div>
+    </nav>
+    <!--navbar small screens-->
+    <nav class="w3-bar w3-display-container w3-hide-large w3-hide-medium" style="background-color:#E30D00;">
+        <a href="index.html" id="logo" class="w3-bar-item w3-hover-text-black w3-mobile w3-padding-24"><img src="logo.png" class="w3-image"></a>
+        <div class="w3-padding-32">
+            <a href="team.html" id="OurTeam" class="w3-bar-item w3-hover-text-black w3-mobile w3-padding-16">our Team</a>
+            <a href="keystone.html" id="Keystone" class="w3-bar-item w3-hover-text-black w3-mobile w3-padding-16">Keystone</a>
+            <a href="Projects.html" id="Projects" class="w3-bar-item w3-hover-text-black w3-mobile w3-padding-16">Projects</a>
+            <a href="ratnajaali.html" id="Ratnajaali" class="w3-bar-item w3-hover-text-black w3-mobile w3-padding-16">Ratnajaali</a>
+            <a href="contact.html" id="Contact" class="w3-bar-item w3-hover-text-black w3-mobile w3-padding-16">Contact</a>
+            <a href="csr.html" id="CSROpportunities" class="w3-bar-item w3-hover-text-black w3-mobile w3-padding-16">CSR Opportunities</a>
+        </div>
+    </nav>
+
+    <div class="w3-auto w3-hide-small" style="width: 65%; margin-top: 200px;" id="main">
+        <h1>Ratnajaali Curriculum Design</h1>
+        <p>The curriculum as an art.</p>
+        <p>
+            <span  style="color: #E30D00;">
+                “This curriculum project came from my personal need to find a rationale for my own work. After 25 years as a school teacher and a school principal, I was looking for a reason to continue doing what I had been doing or even a reason to stop doing it. I struggled with this. I had often been forced into a defensive position by teachers and parents, having to explain and justify methods and policies. There was a constant struggle to fund the work and also to somehow squeeze it into the mould set by the 10th standard exam at the end of the road. New staff were always a challenge to inspire and train and senior teachers would go into ‘fatigue’ mode and lose their zest for the job. Keeping up the sense of direction and the commitment to the meaning of the work was a continuous challenge. I wondered whether the work had made any difference. Had it been worth all the heartache and the grief? Had it been worth doing at all? I was looking for underlying principles… a theory of education should have emerged from years and years of trial and error and experimentation (I thought). Surely there had to be a simple explanation for what my team and I had been doing and why we had insisted on doing it in a very particular way? But the theory eluded me and I questioned the meaning of the work itself. The search was throwing up only questions and no answers. Three years ago the team started working with systems dynamics principles (Peter Senge – The Fifth Discipline). We had used the principles of ‘the learning organisation’ in the past for an organisational restructuring under the guidance of Drs Margeret Theopile and Humayun Taba. Now we started to apply the principles to our teaching/learning programme. We secured the Stella software (to apply Systems dynamics in classroom work) with a small grant for the purpose, made by Mr. Rajinder Raina who is completely passionate about the applications of this in schools. We also had some intensive training from Steve Kipps of the Waters Foundation USA whose visit to India (2004), to train our teachers, was sponsored by Mr. Raina.
+                <br><br>
+                We continued to train ourselves in thinking holistically, suspending judgement, looking at connections before arriving at policies. Several months were spent in discussing and experimenting with these ideas. We applied these ideas in Science, Geography, English and History classes and also in dealing with issues like bullying, noise level and cleanliness of the school. Every week we met to learn new ideas and discuss our experiments. This way of thinking helped me to see connections in everything that we did in school. I began to see the curriculum, activities, methods, functions, attitudes, work ethic, school administrative practices, policies… all as an interconnected and organic system… A map of the curriculum emerged gradually. Curriculum became more than just the ‘content’, it became the whole educational process. Very rapidly I found the organizing and uniting principle, which explained and gave meaning to the explorations of 25 years. It was my journey from analysis to synthesis; my search for simplicity and lucidity… for the white light hidden in all the colours. A core team got involved with defining content, method, attitudes, objectives, values, skills, concepts, ideas and activities. All these came together as a curriculum designed on an organic model borrowing metaphors from nature. Zeroing in on one ‘big idea’ we started to draw out the rest of the curriculum and show how every activity was rooted in an objective, or developed a skill, or an attitude which led to the six values which we had earlier identified as values of the school, which spring from the BIG idea. The core idea at the heart of this curriculum is that it is all one; WE are all one… we are connected to each other, we are responsible for each other, everything we do affects everyone else. The past, present and future are intertwined. Every choice we make determines the future for everyone else. So History, Geography and Science are actually one subject of study. Man/woman and his/her environment are one continuum.
+                <br><br>
+                The curriculum as a work of art; Of all the arts, the living of a life is perhaps the greatest -Kathleene Raine.
+                <br><br>
+                While curriculum design is apparently a highly cognitive activity, in this case it has become one charged with emotion and excitement. Our use of metaphors drawn from nature and from science to create models for the whole as well as for parts of the curriculum has imbued it with poetry. The plan for the software which is likely to be designed as a journey to the centre of the universe, involving many adventures on the way, gives the new curriculum the zest and vigour of play. In every meeting we find ourselves making diagrams and sketches, telling stories to make ideas clearer and weaving in colour and music to draw connections. We feel that by some mysterious process the curriculum is turning into a canvas in progress. As we add details, we also find new meanings. The whole comes together, creating a pattern which feels like it was always there. Then we work further and a new relationship creates a new design which fits into the whole. All of this expresses and communicates more than an essay on the subject such as this one!!
+                <br><br>
+                Who is involved and how far have we got?<br>
+                A team of about 33 teachers is engrossed in this journey since June 2006. Several experts or resource teachers who have worked with us before over the last 25 years as well as ex- students, have been invited to participate in the discussions. They have come delightedly. The project is now coordinated by Dr. Sunita Nair, who has a background in Physics, and importantly has a wonderful holistic perspective on learning and living. She spends hours and hours interviewing teachers and distilling their experiences onto the computer. So far we have indulged in 230 meetings, accessing thirty three teachers, students and others since June 2006. Two modules: Life Skills and Pre-primary Explorations are complete. A linear curriculum upto Std 2 is also complete. Work is in full swing on History, Geography, Science, the Languages, Mathematics and the Arts. The curriculum theory is coming out of the womb of 25 years of solid school practice. We are constructing the theory alongside, with the attendant labour pains. All this is funded on a shoe string budget from small contributions from well wishers and friends. The software which will create access to our intricate design has not been started yet due to unavailability of funds.
+                <br><br>
+                Conclusion <br>
+                This project is too exciting to stop at this point for lack of funds. Too many people have got engrossed in the adventure and we have to find the funds to make it possible. We are looking for friends, co-travellers and dreamers to hold our hands for the next phase of the project.”
+                <br>
+                - Madhavi Kapur, Founder
+            </span>
+            <br>
+            <br>
+            <br>
+            India’s indigenous system of education was replaced by that of the British after the Crown took charge of India from the Company. It became necessary to school Indians as British subjects and to make them obedient and tractable. The Empire needed civil servants who followed instructions efficiently. It was an education intended and designed to create good followers, to undermine self hood and to arouse awe and respect for all things English. At independence the agenda of the new country had to find a place in a new curriculum. However in spite of several additions to accommodate a new self image for India, the structure and the execution of school education remained unaltered. Several educational committees and commissions later, in spite of extensive research, discussion at state and national seminars and a good deal of reflection and sharing of ideas, on the ground, most changes in the last 60 years have been cosmetic. If anything, we have overemphasised conformity and ‘being good’. A classroom is a top down hierarchy. Children learn to think in terms of one right answer. It is a black and white system where you are either wrong or right. The nuances and the many shades of meaning; the varying points of view; the different perceptions and perspectives that constitute reality… these are lost completely. Teachers and children continue to be trained to think in a completely linear way, not responding to the complexity of the real world, not looking for the obvious connections and overlaps between subjects, trusting the content in the textbooks as the only and whole truth, discouraging healthy confusions, doubts and questions. In a world riddled with conflict and violence, an education that eschews the need to embrace complexity is a sad education.
+            <br><br>
+            The paradox <br>
+            As the frontiers of knowledge continue to expand exponentially, curriculum designers have tied themselves into knots to keep pace with the future and what it may hold. On the one hand there is pressure to ‘modernize’ and include new areas such as computer science, microbiology, quantum physics, life skills education. On the other hand ‘curriculum overload’ (Professor Yashpal) very clearly creates unhealthy stress and leaves no time and space for the arts being an integral part of learning. An overemphasis on the cognitive, leaving out other domains creates obvious imbalances. Apparently, children have more content to get their heads around. Can content remain divorced from method or the process of mastery of that content? Why do we insist on seeing the Arts as separate from all of this? Why do we keep our curriculum in neat and water tight boxes so that the enriching interplay of one area with another becomes almost impossible? How does one approach this paradox? How can one provide for both range and depth, for emotion and intellect, for process and content, for mind and spirit? We need to ask ourselves some basic questions - What’s worth knowing? Why do we teach… (geometry/ grammar/ civics)? What is expendable? What can we safely discard? Do we need a whole new emphasis? Do we need a different way of dividing up knowledge/ learning into ‘subject areas’? Do we perhaps need to reorganise our curriculum map to bring out the connections, the interrelatedness, the wholeness?
+            <br><br>
+            Analysis to synthesis <br>
+            A fresh curriculum must synthesize the learning experience. We have become overwhelmed by our task as teachers because we have analysed the subject matter to be learnt/taught to the extent that it has lost its meaning. We see so many small parts that we have lost the whole. As a consequence learning has become meaningless and purposeless. It seems a ‘burden’ (Professor Yashpal) because every analysed sub-sub- part of the curriculum becomes one more thing to learn. From an ever growing mountain of discrete bits and pieces of information we need to draw out a synthesizing principle which makes sense of the whole. The professionals associated with the MKF have years of collective experience in inclusive child centric education and their teaching methods have won many accolades. However if these good practices and innovative ideas that have stood the test of practical experience are to impact the educational system on a larger scale they need to be synthesized and documented holistically - as a set of principles and methods that can form a model that can provide both the foundation and the building blocks that can be used to develop a teaching program in diverse settings whatever be the age group, language or cultural context.
+            <br><br>
+            The MKF is trying to unify its teaching experiences into just such a cohesive model. This model will have:
+            The theoretical principles and the values underpinning the structure of the curriculum.
+            Actual step by step details for designing a curriculum for classes 1-10. Each class curriculum will detail the content matter to be covered, methods to be used for teaching as well as additional skill building exercises and out of classroom activities that can accompany the lessons.
+            <br><br>
+            The MK Foundation team consists of highly experienced teachers, who have worked together for several years . These teachers have experimented with a variety of teaching methods and strategies and have compiled a selection of successful methods. The team members have come together to put all their expertise and experiences to create a curriculum which is a philosophy on its own. It consists of themes, objectives, values, suggestions, links and pointers –all of which help the child to see the content topic as a whole and help widen his / her outlook. 
+            <br><br>
+            The following curriculum modules have been developed and piloted at Aman Setu: <br>
+            1. Pre primary curriculum: Language arts, Concept formation, Explorations in the Environment. <br>
+            2. Primary Curriculum: Std 1 to 4. <br>
+            3. Life Skills Orientation: Stds 1 to 10 <br>
+            4. Integrated story workbooks and readers- Pre school <br>
+            5. Learning How to learn- Stds 1 to 4. <br>
+            6. Hindi and Marathi curriculum <br>
+            7. Fine Arts Curriculum. <br>
+        </p>
+    </div>
+    <div class="w3-auto w3-hide-medium w3-hide-large" style="width: 90%; margin-top: 200px;" id="main">
+        <h1>Ratnajaali Curriculum Design</h1>
+        <p>The curriculum as an art.</p>
+        <p>
+            <span  style="color: #E30D00;">
+                “This curriculum project came from my personal need to find a rationale for my own work. After 25 years as a school teacher and a school principal, I was looking for a reason to continue doing what I had been doing or even a reason to stop doing it. I struggled with this. I had often been forced into a defensive position by teachers and parents, having to explain and justify methods and policies. There was a constant struggle to fund the work and also to somehow squeeze it into the mould set by the 10th standard exam at the end of the road. New staff were always a challenge to inspire and train and senior teachers would go into ‘fatigue’ mode and lose their zest for the job. Keeping up the sense of direction and the commitment to the meaning of the work was a continuous challenge. I wondered whether the work had made any difference. Had it been worth all the heartache and the grief? Had it been worth doing at all? I was looking for underlying principles… a theory of education should have emerged from years and years of trial and error and experimentation (I thought). Surely there had to be a simple explanation for what my team and I had been doing and why we had insisted on doing it in a very particular way? But the theory eluded me and I questioned the meaning of the work itself. The search was throwing up only questions and no answers. Three years ago the team started working with systems dynamics principles (Peter Senge – The Fifth Discipline). We had used the principles of ‘the learning organisation’ in the past for an organisational restructuring under the guidance of Drs Margeret Theopile and Humayun Taba. Now we started to apply the principles to our teaching/learning programme. We secured the Stella software (to apply Systems dynamics in classroom work) with a small grant for the purpose, made by Mr. Rajinder Raina who is completely passionate about the applications of this in schools. We also had some intensive training from Steve Kipps of the Waters Foundation USA whose visit to India (2004), to train our teachers, was sponsored by Mr. Raina.
+                <br><br>
+                We continued to train ourselves in thinking holistically, suspending judgement, looking at connections before arriving at policies. Several months were spent in discussing and experimenting with these ideas. We applied these ideas in Science, Geography, English and History classes and also in dealing with issues like bullying, noise level and cleanliness of the school. Every week we met to learn new ideas and discuss our experiments. This way of thinking helped me to see connections in everything that we did in school. I began to see the curriculum, activities, methods, functions, attitudes, work ethic, school administrative practices, policies… all as an interconnected and organic system… A map of the curriculum emerged gradually. Curriculum became more than just the ‘content’, it became the whole educational process. Very rapidly I found the organizing and uniting principle, which explained and gave meaning to the explorations of 25 years. It was my journey from analysis to synthesis; my search for simplicity and lucidity… for the white light hidden in all the colours. A core team got involved with defining content, method, attitudes, objectives, values, skills, concepts, ideas and activities. All these came together as a curriculum designed on an organic model borrowing metaphors from nature. Zeroing in on one ‘big idea’ we started to draw out the rest of the curriculum and show how every activity was rooted in an objective, or developed a skill, or an attitude which led to the six values which we had earlier identified as values of the school, which spring from the BIG idea. The core idea at the heart of this curriculum is that it is all one; WE are all one… we are connected to each other, we are responsible for each other, everything we do affects everyone else. The past, present and future are intertwined. Every choice we make determines the future for everyone else. So History, Geography and Science are actually one subject of study. Man/woman and his/her environment are one continuum.
+                <br><br>
+                The curriculum as a work of art; Of all the arts, the living of a life is perhaps the greatest -Kathleene Raine.
+                <br><br>
+                While curriculum design is apparently a highly cognitive activity, in this case it has become one charged with emotion and excitement. Our use of metaphors drawn from nature and from science to create models for the whole as well as for parts of the curriculum has imbued it with poetry. The plan for the software which is likely to be designed as a journey to the centre of the universe, involving many adventures on the way, gives the new curriculum the zest and vigour of play. In every meeting we find ourselves making diagrams and sketches, telling stories to make ideas clearer and weaving in colour and music to draw connections. We feel that by some mysterious process the curriculum is turning into a canvas in progress. As we add details, we also find new meanings. The whole comes together, creating a pattern which feels like it was always there. Then we work further and a new relationship creates a new design which fits into the whole. All of this expresses and communicates more than an essay on the subject such as this one!!
+                <br><br>
+                Who is involved and how far have we got?<br>
+                A team of about 33 teachers is engrossed in this journey since June 2006. Several experts or resource teachers who have worked with us before over the last 25 years as well as ex- students, have been invited to participate in the discussions. They have come delightedly. The project is now coordinated by Dr. Sunita Nair, who has a background in Physics, and importantly has a wonderful holistic perspective on learning and living. She spends hours and hours interviewing teachers and distilling their experiences onto the computer. So far we have indulged in 230 meetings, accessing thirty three teachers, students and others since June 2006. Two modules: Life Skills and Pre-primary Explorations are complete. A linear curriculum upto Std 2 is also complete. Work is in full swing on History, Geography, Science, the Languages, Mathematics and the Arts. The curriculum theory is coming out of the womb of 25 years of solid school practice. We are constructing the theory alongside, with the attendant labour pains. All this is funded on a shoe string budget from small contributions from well wishers and friends. The software which will create access to our intricate design has not been started yet due to unavailability of funds.
+                <br><br>
+                Conclusion <br>
+                This project is too exciting to stop at this point for lack of funds. Too many people have got engrossed in the adventure and we have to find the funds to make it possible. We are looking for friends, co-travellers and dreamers to hold our hands for the next phase of the project.”
+                <br>
+                - Madhavi Kapur, Founder
+            </span>
+            <br>
+            <br>
+            <br>
+            India’s indigenous system of education was replaced by that of the British after the Crown took charge of India from the Company. It became necessary to school Indians as British subjects and to make them obedient and tractable. The Empire needed civil servants who followed instructions efficiently. It was an education intended and designed to create good followers, to undermine self hood and to arouse awe and respect for all things English. At independence the agenda of the new country had to find a place in a new curriculum. However in spite of several additions to accommodate a new self image for India, the structure and the execution of school education remained unaltered. Several educational committees and commissions later, in spite of extensive research, discussion at state and national seminars and a good deal of reflection and sharing of ideas, on the ground, most changes in the last 60 years have been cosmetic. If anything, we have overemphasised conformity and ‘being good’. A classroom is a top down hierarchy. Children learn to think in terms of one right answer. It is a black and white system where you are either wrong or right. The nuances and the many shades of meaning; the varying points of view; the different perceptions and perspectives that constitute reality… these are lost completely. Teachers and children continue to be trained to think in a completely linear way, not responding to the complexity of the real world, not looking for the obvious connections and overlaps between subjects, trusting the content in the textbooks as the only and whole truth, discouraging healthy confusions, doubts and questions. In a world riddled with conflict and violence, an education that eschews the need to embrace complexity is a sad education.
+            <br><br>
+            The paradox <br>
+            As the frontiers of knowledge continue to expand exponentially, curriculum designers have tied themselves into knots to keep pace with the future and what it may hold. On the one hand there is pressure to ‘modernize’ and include new areas such as computer science, microbiology, quantum physics, life skills education. On the other hand ‘curriculum overload’ (Professor Yashpal) very clearly creates unhealthy stress and leaves no time and space for the arts being an integral part of learning. An overemphasis on the cognitive, leaving out other domains creates obvious imbalances. Apparently, children have more content to get their heads around. Can content remain divorced from method or the process of mastery of that content? Why do we insist on seeing the Arts as separate from all of this? Why do we keep our curriculum in neat and water tight boxes so that the enriching interplay of one area with another becomes almost impossible? How does one approach this paradox? How can one provide for both range and depth, for emotion and intellect, for process and content, for mind and spirit? We need to ask ourselves some basic questions - What’s worth knowing? Why do we teach… (geometry/ grammar/ civics)? What is expendable? What can we safely discard? Do we need a whole new emphasis? Do we need a different way of dividing up knowledge/ learning into ‘subject areas’? Do we perhaps need to reorganise our curriculum map to bring out the connections, the interrelatedness, the wholeness?
+            <br><br>
+            Analysis to synthesis <br>
+            A fresh curriculum must synthesize the learning experience. We have become overwhelmed by our task as teachers because we have analysed the subject matter to be learnt/taught to the extent that it has lost its meaning. We see so many small parts that we have lost the whole. As a consequence learning has become meaningless and purposeless. It seems a ‘burden’ (Professor Yashpal) because every analysed sub-sub- part of the curriculum becomes one more thing to learn. From an ever growing mountain of discrete bits and pieces of information we need to draw out a synthesizing principle which makes sense of the whole. The professionals associated with the MKF have years of collective experience in inclusive child centric education and their teaching methods have won many accolades. However if these good practices and innovative ideas that have stood the test of practical experience are to impact the educational system on a larger scale they need to be synthesized and documented holistically - as a set of principles and methods that can form a model that can provide both the foundation and the building blocks that can be used to develop a teaching program in diverse settings whatever be the age group, language or cultural context.
+            <br><br>
+            The MKF is trying to unify its teaching experiences into just such a cohesive model. This model will have:
+            The theoretical principles and the values underpinning the structure of the curriculum.
+            Actual step by step details for designing a curriculum for classes 1-10. Each class curriculum will detail the content matter to be covered, methods to be used for teaching as well as additional skill building exercises and out of classroom activities that can accompany the lessons.
+            <br><br>
+            The MK Foundation team consists of highly experienced teachers, who have worked together for several years . These teachers have experimented with a variety of teaching methods and strategies and have compiled a selection of successful methods. The team members have come together to put all their expertise and experiences to create a curriculum which is a philosophy on its own. It consists of themes, objectives, values, suggestions, links and pointers –all of which help the child to see the content topic as a whole and help widen his / her outlook. 
+            <br><br>
+            The following curriculum modules have been developed and piloted at Aman Setu: <br>
+            1. Pre primary curriculum: Language arts, Concept formation, Explorations in the Environment. <br>
+            2. Primary Curriculum: Std 1 to 4. <br>
+            3. Life Skills Orientation: Stds 1 to 10 <br>
+            4. Integrated story workbooks and readers- Pre school <br>
+            5. Learning How to learn- Stds 1 to 4. <br>
+            6. Hindi and Marathi curriculum <br>
+            7. Fine Arts Curriculum. <br>
+        </p>
+    </div>
+
+    <footer class="w3-row w3-light-grey w3-hide-medium w3-hide-small" style="margin-top: 120px;">
+        <div class="w3-col l4">
+            <h3 style="margin-left: 45%;">MKF</h3>
+            <p style="margin-left: 45%;">90/1/2/3,<br> Lohegaon Wagholi Road <br>411047</p>
+            <p style="margin-left: 45%;">feedback.amansetu@gmail.com</p>
+            <p style="margin-left: 45%;">+91 9833354036</p>
+            <p style="margin-left: 45%;">© MKF 2020. All rights reserved</p>
+        </div>
+        <div class="w3-col l4 w3-padding-32">
+            <p class="Ratnajaali" style="margin-left: 45%;">Ratnajaali</p>
+            <p class="Keystone" style="margin-left: 45%;">Keystone</p>
+            <p class="Careers" style="margin-left: 45%;">Careers</p>
+            <p class="CSR" style="margin-left: 45%;">CSR</p>
+        </div>
+    </footer>
+    <footer class="w3-row w3-light-grey w3-hide-large" style="margin-top: 80px;">
+        <div class="w3-center">
+            <h3>MKF</h3>
+            <p>90/1/2/3,<br> Lohegaon Wagholi Road <br>411047</p>
+            <p>feedback.amansetu@gmail.com</p>
+            <p>+91 9833354036</p>
+            <p>© MKF 2020. All rights reserved</p>
+        </div>
+        <div class="w3-center w3-padding-32">
+            <p class="Ratnajaali">Ratnajaali</p>
+            <p class="Keystone">Keystone</p>
+            <p class="Careers">Careers</p>
+            <p class="CSR">CSR</p>
+        </div>
+    </footer>
+</body>
+</html>

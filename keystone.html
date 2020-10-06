@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keystone</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<style>
+    nav a {
+        font-family: kepler-std-semicondensed-dis,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    text-decoration: none;
+
+    color: #FFFFFF;
+    }
+    a {
+        text-decoration: none;
+    }
+    * {
+	scrollbar-width: thin;
+	scrollbar-color: #E30D00;
+}
+
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+	width: 12px;
+}
+*::-webkit-scrollbar-track {
+	background: #ececec;
+}
+*::-webkit-scrollbar-thumb {
+	background-color: #E30D00;
+	border-radius: 20px;
+	border: 2px solid #ececec;
+}
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #E30D00;
+}
+
+::selection {
+    color: white;
+    background: #E30D00;
+}
+</style>
+<body>
+    <!--navbar large screens--> 
+    <nav class="w3-bar w3-hide-small w3-hide-medium w3-top" style="background-color:#E30D00;">
+        <a href="index.html" id="logo" class="w3-bar-item w3-padding-24 w3-margin-left"><img src="logo.png" class="w3-image"></a>
+        <div class="w3-padding-32 w3-right">
+            <a href="team.html" id="OurTeam" class="w3-bar-item w3-hover-text-black" style="margin-right: 35px;">our Team</a>
+            <a href="keystone.html" id="Keystone" class="w3-bar-item w3-hover-text-black" style="margin-right: 35px;">Keystone</a>
+            <a href="Projects.html" id="Projects" class="w3-bar-item w3-hover-text-black" style="margin-right: 35px;">Projects</a>
+            <a href="ratnajaali.html" id="Ratnajaali" class="w3-bar-item w3-hover-text-black" style="margin-right: 35px;">Ratnajaali</a>
+            <a href="contact.html" id="Contact" class="w3-bar-item w3-hover-text-black" style="margin-right: 35px;">Contact</a>
+            <a href="csr.html" id="CSROpportunities" class="w3-bar-item w3-hover-text-black w3-border w3-border-white" style="border-radius: 10px; border-width: thick;margin-right: 50px;">CSR Opportunities</a>
+        </div>
+    </nav>
+    <!--navbar medium screens-->
+    <nav class="w3-bar w3-display-container w3-hide-large w3-hide-small w3-top" style="background-color: #E30D00;">
+        <a href="index.html" id="logo" class="w3-bar-item w3-hover-text-black w3-padding-24"><img src="logo.png" class="w3-image"></a>
+        <div class="w3-padding-32">
+            <a href="team.html" id="OurTeam" class="w3-bar-item w3-hover-text-black w3-margin-right w3-margin-left">our Team</a>
+            <a href="keystone.html" id="Keystone" class="w3-bar-item w3-hover-text-black w3-margin-right w3-margin-left">Keystone</a>
+            <a href="Projects.html" id="Projects" class="w3-bar-item w3-hover-text-black w3-margin-right w3-margin-left">Projects</a>
+            <a href="ratnajaali.html" id="Ratnajaali" class="w3-bar-item w3-hover-text-black w3-margin-right w3-margin-left">Ratnajaali</a>
+            <a href="contact.html" id="Contact" class="w3-bar-item w3-hover-text-black w3-margin-right w3-margin-left">Contact</a>
+            <a href="csr.html" id="CSROpportunities" class="w3-bar-item w3-hover-text-black w3-border w3-border-white w3-margin-right w3-margin-left" style="border-radius: 10px; border-width: thick;margin-right: 50px;">CSR Opportunities</a>
+        </div>
+    </nav>
+    <!--navbar small screens-->
+    <nav class="w3-bar w3-display-container w3-hide-large w3-hide-medium" style="background-color:#E30D00;">
+        <a href="index.html" id="logo" class="w3-bar-item w3-hover-text-black w3-mobile w3-padding-24"><img src="logo.png" class="w3-image"></a>
+        <div class="w3-padding-32">
+            <a href="team.html" id="OurTeam" class="w3-bar-item w3-hover-text-black w3-mobile w3-padding-16">our Team</a>
+            <a href="keystone.html" id="Keystone" class="w3-bar-item w3-hover-text-black w3-mobile w3-padding-16">Keystone</a>
+            <a href="Projects.html" id="Projects" class="w3-bar-item w3-hover-text-black w3-mobile w3-padding-16">Projects</a>
+            <a href="ratnajaali.html" id="Ratnajaali" class="w3-bar-item w3-hover-text-black w3-mobile w3-padding-16">Ratnajaali</a>
+            <a href="contact.html" id="Contact" class="w3-bar-item w3-hover-text-black w3-mobile w3-padding-16">Contact</a>
+            <a href="csr.html" id="CSROpportunities" class="w3-bar-item w3-hover-text-black w3-mobile w3-padding-16">CSR Opportunities</a>
+        </div>
+    </nav>
+
+    <div class="w3-auto w3-padding-64 w3-hide-small" style="width: 50%; margin-top: 100px;">
+        <h2>Keystone Teacher Training</h2>
+
+        <p class="p-one">The curriculum as an art.</p>
+
+        <div class="vector"><img src="Vector1.png" alt=""></div>
+
+        <div class="paragraphs">
+
+            <p>A training and resource centre, we offer professional teacher development workshops which help
+                teachers upgrade and enhance their teaching methods. In this forum we also disseminate information on the latest research and trends in the field of education. The workshops are interactive and include many teaching strategies, handouts for future reference and a certificate which adds to the teachers’ qualification. It is our experience, in general, that teachers go back not only satisfied but also confident and excited to use the new ideas learnt here.</p>
+                
+            <p>The training centre conducts the following pre service courses: <br>
+            1. Teaching fundamentals: An intensive certificate course for pre school teachers of 2 months 
+            duration. Teaching fundamentals :A 10 day crash course for pre school teachers <br>
+            2. Be a Master Hindi Teacher : A 5 day crash course for practicing and prospective Hindi teachers <br>
+            3. Enhance your English for teachers: A 20 session course spread over 20 weeks.</p>
+                
+            <p>Additionally, we have conducted training workshops at scores of schools including:- <br>
+            Adani D.A.V Public School, Mundra. <br>
+            Army Public School, Kirkee <br>
+            Childreach School, Mumbai <br>
+            Erin Nagarwalla School, Pune. <br>
+            Gurukul, Pune <br>
+            SNBP school , Pune <br>
+            Head over Heels, Pune <br>
+            St. Mary’s School, Pune <br>
+            Vidya Valley , Pune <br>
+            Vidyanchal School, Pune <br>
+            Welspun School, Anjar <br>
+            Priyadarshani school, Indrayani nagar <br> </p>   
+                
+            <p> Some schools need help in upgrading their academic programme, in which case we discuss the various concerns expressed by the school authorities, and design tailor-made programmes. We suggest inputs that we think the school needs. These programmes may be held over a period of a few months or a few years as is mutually decided by the concerned school and us. </p>
+
+            <p> The team at Keystone has provided support and training to many schools including :</p>
+
+            <p>Global Indian International School, Pune <br>
+                Jagdish Chandra Mahindra Memorial School, Khopoli. <br>
+                JM Rathi English School, Roha. <br>
+                Little Woods, Aurangabad <br>
+                Priyadarshini School, Chinchwad <br>
+                Shiva Valley School, Kedgaon. <br>
+                Sindphana School, Majalgaon <br>
+                Star Kids , Pune <br>
+                Terna Public School, Osmanabad <br>
+                Utkarsh School, Pune. <br>
+                Vidya Niketan, Pune <br>
+                Woodridge High, Aurangabad.</p>
+        </div>
+    </div>
+
+    <div class="w3-auto w3-padding-64 w3-hide-large w3-hide-medium" style="width: 90%; margin-top: 40px;">
+        <h2>Keystone Teacher Training</h2>
+
+        <p class="p-one">The curriculum as an art.</p>
+
+        <div class="vector"><img src="Vector1.png" alt=""></div>
+
+        <div class="paragraphs">
+
+            <p>A training and resource centre, we offer professional teacher development workshops which help
+                teachers upgrade and enhance their teaching methods. In this forum we also disseminate information on the latest research and trends in the field of education. The workshops are interactive and include many teaching strategies, handouts for future reference and a certificate which adds to the teachers’ qualification. It is our experience, in general, that teachers go back not only satisfied but also confident and excited to use the new ideas learnt here.</p>
+                
+            <p>The training centre conducts the following pre service courses: <br>
+            1. Teaching fundamentals: An intensive certificate course for pre school teachers of 2 months 
+            duration. Teaching fundamentals :A 10 day crash course for pre school teachers <br>
+            2. Be a Master Hindi Teacher : A 5 day crash course for practicing and prospective Hindi teachers <br>
+            3. Enhance your English for teachers: A 20 session course spread over 20 weeks.</p>
+                
+            <p>Additionally, we have conducted training workshops at scores of schools including:- <br>
+            Adani D.A.V Public School, Mundra. <br>
+            Army Public School, Kirkee <br>
+            Childreach School, Mumbai <br>
+            Erin Nagarwalla School, Pune. <br>
+            Gurukul, Pune <br>
+            SNBP school , Pune <br>
+            Head over Heels, Pune <br>
+            St. Mary’s School, Pune <br>
+            Vidya Valley , Pune <br>
+            Vidyanchal School, Pune <br>
+            Welspun School, Anjar <br>
+            Priyadarshani school, Indrayani nagar <br> </p>   
+                
+            <p> Some schools need help in upgrading their academic programme, in which case we discuss the various concerns expressed by the school authorities, and design tailor-made programmes. We suggest inputs that we think the school needs. These programmes may be held over a period of a few months or a few years as is mutually decided by the concerned school and us. </p>
+
+            <p> The team at Keystone has provided support and training to many schools including :</p>
+
+            <p>Global Indian International School, Pune <br>
+                Jagdish Chandra Mahindra Memorial School, Khopoli. <br>
+                JM Rathi English School, Roha. <br>
+                Little Woods, Aurangabad <br>
+                Priyadarshini School, Chinchwad <br>
+                Shiva Valley School, Kedgaon. <br>
+                Sindphana School, Majalgaon <br>
+                Star Kids , Pune <br>
+                Terna Public School, Osmanabad <br>
+                Utkarsh School, Pune. <br>
+                Vidya Niketan, Pune <br>
+                Woodridge High, Aurangabad.</p>
+        </div>
+    </div>
+    
+    <footer class="w3-row w3-light-grey w3-hide-medium w3-hide-small" style="margin-top: 120px;">
+        <div class="w3-col l4">
+            <h3 style="margin-left: 45%;">MKF</h3>
+            <p style="margin-left: 45%;">90/1/2/3,<br> Lohegaon Wagholi Road <br>411047</p>
+            <p style="margin-left: 45%;">feedback.amansetu@gmail.com</p>
+            <p style="margin-left: 45%;">+91 9833354036</p>
+            <p style="margin-left: 45%;">© MKF 2020. All rights reserved</p>
+        </div>
+        <div class="w3-col l4 w3-padding-32">
+            <p class="Ratnajaali" style="margin-left: 45%;">Ratnajaali</p>
+            <p class="Keystone" style="margin-left: 45%;">Keystone</p>
+            <p class="Careers" style="margin-left: 45%;">Careers</p>
+            <p class="CSR" style="margin-left: 45%;">CSR</p>
+        </div>
+    </footer>
+    <footer class="w3-row w3-light-grey w3-hide-large">
+        <div class="w3-center">
+            <h3>MKF</h3>
+            <p>90/1/2/3,<br> Lohegaon Wagholi Road <br>411047</p>
+            <p>feedback.amansetu@gmail.com</p>
+            <p>+91 9833354036</p>
+            <p>© MKF 2020. All rights reserved</p>
+        </div>
+        <div class="w3-center w3-padding-32">
+            <p class="Ratnajaali">Ratnajaali</p>
+            <p class="Keystone">Keystone</p>
+            <p class="Careers">Careers</p>
+            <p class="CSR">CSR</p>
+        </div>
+    </footer>
+</body>
+</html>

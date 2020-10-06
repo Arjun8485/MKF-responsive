@@ -1,0 +1,368 @@
+html {
+    width: 1440px;
+}
+
+/* Navbar */
+
+nav {
+    height: 100px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #E30D00;
+    width: 100%;
+}
+
+#logo {
+   position: absolute;
+   left: 4.44%;
+   right: 91.46%;
+   top: 23%;
+   bottom: 23%;
+}
+
+#OurTeam {
+    position: absolute;
+    left: 32.36%;
+    right: 62.71%;
+    top: 45%;
+    bottom: 40%;
+    
+    font-family: kepler-std-semicondensed-dis,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+#Keystone {
+    position: absolute;
+    left: 42.85%;
+    right: 52.43%;
+    top: 45%;
+    bottom: 40%;
+
+    font-family: kepler-std-semicondensed-dis,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+#Projects {
+    position: absolute;
+    left: 53.12%;
+    right: 42.71%;
+    top: 45%;
+    bottom: 40%;
+
+    font-family: kepler-std-semicondensed-dis,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+#Ratnajaali {
+    position: absolute;
+    left: 62.85%;
+    right: 31.88%;
+    top: 45%;
+    bottom: 40%;
+
+    font-family: kepler-std-semicondensed-dis,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+#Contact {
+    position: absolute;
+    left: 73.68%;
+    right: 22.29%;
+    top: 45%;
+    bottom: 40%;
+
+    font-family: kepler-std-semicondensed-dis,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+#CSROpportunities {
+    position: absolute;
+    left: 85%;
+    right: 5.62%;
+    top: 46%;
+    bottom: 39%;
+
+    font-family: kepler-std-semicondensed-dis,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+.rectangle {
+    position: absolute;
+    left: 83.26%;
+    right: 3.89%;
+    top: 33%;
+    bottom: 25%;
+ 
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    }
+
+h2 {
+    position: absolute;
+    width: 460px;
+    height: 32px;
+    left: 412px;
+    top: 220px;
+
+    font-family: kepler-std-semicondensed-dis,serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+.p-one{
+    position: absolute;
+    width: 300px;
+    height: 20px;
+    left: 412px;
+    top: 276px;
+
+
+    font-family: aktiv-grotesk, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #4F4F4F;
+}
+
+.vector img {
+    position: absolute;
+    width: 93px;
+    height: 8px;
+    left: 412px;
+    top: 328px;
+}
+
+.paragraphs {
+    position: absolute;
+    width: 620px;
+    height: 1283px;
+    left: 410px;
+    top: 368px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 424px;
+    left: 0px;
+    top: 1771px;
+
+    background: #F2F2F2;
+ }
+
+ .mkf {
+    position: absolute;
+    left: 19.58%;
+    right: 72.92%;
+    top: 18.87%;
+    bottom: 75.94%;
+    
+    font-family:kepler-std-semicondensed-dis,serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+
+    color: #333333;
+ }
+
+ .address {
+    position: absolute;
+    left: 19.58%;
+    right: 64.44%;
+    top: 33.49%;
+    bottom: 50.71%;
+    
+    font-family: aktiv-grotesk, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #333333;
+ }
+
+ .email {
+    position: absolute;
+    left: 19.58%;
+    right: 63.47%;
+    top: 58.73%;
+    bottom: 36.08%;
+    
+    font-family: aktiv-grotesk, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #333333;
+ }
+
+ .number {
+    position: absolute;
+    left: 19.58%;
+    right: 66.81%;
+    top: 66.75%;
+    bottom: 28.77%;
+    
+    font-family: aktiv-grotesk, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #333333;
+ }
+
+ .allRightsReserved {
+    position: absolute;
+    left: 19.58%;
+    right: 62.64%;
+    top: 80.66%;
+    bottom: 15.09%;
+    
+    font-family: aktiv-grotesk, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #333333;
+ }
+
+ .Ratnajaali {
+    position: absolute;
+    left: 47.29%;
+    right: 46.46%;
+    top: 33.49%;
+    bottom: 61.56%;
+    
+    font-family: aktiv-grotesk, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #333333;
+ }
+
+ .Keystone {
+    position: absolute;
+    left: 47.29%;
+    right: 47.08%;
+    top: 42.22%;
+    bottom: 52.83%;
+    
+    font-family: aktiv-grotesk, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #333333;
+ }
+
+ .Careers {
+    position: absolute;
+    left: 47.29%;
+    right: 47.71%;
+    top: 50.94%;
+    bottom: 44.58%;
+    
+    font-family: aktiv-grotesk, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #333333;
+ }
+
+ .CSR {
+    position: absolute;
+    left: 47.29%;
+    right: 47.71%;
+    top: 59.2%;
+    bottom: 36.32%;
+    
+    font-family: aktiv-grotesk, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #333333;
+ }
+
